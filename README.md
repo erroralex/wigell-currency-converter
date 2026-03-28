@@ -2,7 +2,7 @@
 
 En lättviktig mikrotjänst byggd med **Java 24** och **Spring Boot 3.5.4** för att hantera valutakonvertering inom Wigell-ekosystemet. Tjänsten hämtar aktuella växelkurser i realtid via Frankfurter API.
 
-## 🔌 API-Dokumentation
+## API-Dokumentation
 Tjänsten exponerar en endpoint för att hämta växelkursen mellan två valutor.
 
 ### Hämta växelkurs
@@ -15,7 +15,7 @@ Tjänsten exponerar en endpoint för att hämta växelkursen mellan två valutor
 
 ---
 
-## 📘 Integrationsguide (Concise)
+## Integrationsguide (Concise)
 
 Denna guide är till för andra tjänster (t.ex. `wigell-paddel`) som behöver utföra valutakonvertering.
 
