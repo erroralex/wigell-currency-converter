@@ -1,0 +1,21 @@
+server:
+  port: 8580
+
+spring:
+  application:
+    name: wigell-currency-converter
+
+  boot:
+    admin:
+      client:
+        url: http://localhost:8081
+
+  threads:
+    virtual:
+      enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, metrics
